@@ -1,0 +1,17 @@
+{
+  "name": "study",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/crypto.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "s1": "set UV_THREADPOOL_SIZE=1 & node src/crypto.js",
+    "s2": "set UV_THREADPOOL_SIZE=2 & node src/crypto.js",
+    "s4": "set UV_THREADPOOL_SIZE=4 & node src/crypto.js",
+    "s6": "set UV_THREADPOOL_SIZE=6 & node src/crypto.js",
+    "s8": "set UV_THREADPOOL_SIZE=8 & node src/crypto.js"
+  },
+  "author": "kiyotd",
+  "license": "ISC"
+}
